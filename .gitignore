@@ -1,0 +1,37 @@
+# GMX_RELEASE_REVIEW_20261102: generated builds and private research artifacts.
+# These rules do not delete any local files or override upstream source files.
+/build*/
+/install*/
+CMakeCache.txt
+CMakeFiles/
+__pycache__/
+*.pyc
+.venv*/
+.DS_Store
+Thumbs.db
+
+# Trained models and trajectories require separate redistribution permission.
+*.pt
+*.pth
+*.ckpt
+*.trr
+*.xtc
+*.tng
+*.edr
+*.cpt
+*.log
+*.out
+*.xvg
+*.npz
+# Keep small, upstream regression/reference data already present in the source.
+!src/**
+!share/**
+!api/**
+# Local access material must never be committed.
+.ssh*/
+*known_hosts*
+id_rsa*
+id_ed25519*
+*.pem
+.env
+.env.*

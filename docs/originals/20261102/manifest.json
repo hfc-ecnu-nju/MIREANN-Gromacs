@@ -1,0 +1,100 @@
+{
+  "purpose": "Exact pre-update desktop files; original branches and comments are also retained.",
+  "files": [
+    {
+      "path": "README_REANN_ZH.md",
+      "sha256": "72515eb559ff53529221f40d429ad86adbac6bed723b9467e02e115a96cdf4cc",
+      "snapshot": "files/README_REANN_ZH.md"
+    },
+    {
+      "path": "cmake/gmxManageNNPot.cmake",
+      "sha256": "a33f02723f8483d09fd5130bb695b39078494cf7d21cc5567a92feb5ce2f559b",
+      "snapshot": "files/cmake/gmxManageNNPot.cmake"
+    },
+    {
+      "path": "docs/mireann-pseudo-bond.md",
+      "sha256": "016812e371110e969af7063120afd17715b6a6155922dbd09f6cd32b465e5db5",
+      "snapshot": "files/docs/mireann-pseudo-bond.md"
+    },
+    {
+      "path": "extensions/qeq-reann/mireann_backend.cpp",
+      "sha256": "ba799c7823529c1a9d81418bf34c18cfef243c0e164ec5aa1ddf137e98932f3e",
+      "snapshot": "files/extensions/qeq-reann/mireann_backend.cpp"
+    },
+    {
+      "path": "src/gromacs/ewald/pme_mireann_gpu.cu",
+      "sha256": "21ddc8f461578797f081ebc6017defc7be194e508e33a75779f7bd3a6e5bf08f",
+      "snapshot": "files/src/gromacs/ewald/pme_mireann_gpu.cu"
+    },
+    {
+      "path": "src/gromacs/gmxpreprocess/readir.cpp",
+      "sha256": "49de72ff89b30c4a9a5a17e0f81e7b9f08e65a702e9b42b8cbb1e6a4cd4c8413",
+      "snapshot": "files/src/gromacs/gmxpreprocess/readir.cpp"
+    },
+    {
+      "path": "src/gromacs/mdlib/dynamicchargeoptions.h",
+      "sha256": "f89ed9dccfaabbfddbda9d3c2005a66d33a78cbe28d3d947870ddae7619bbed1",
+      "snapshot": "files/src/gromacs/mdlib/dynamicchargeoptions.h"
+    },
+    {
+      "path": "src/gromacs/mdlib/dynamicchargeprovider.h",
+      "sha256": "2c2e2409c9fa23ede93f39bdd85cd38da9e7c97503153bb63a6b03b6063851a7",
+      "snapshot": "files/src/gromacs/mdlib/dynamicchargeprovider.h"
+    },
+    {
+      "path": "src/gromacs/mdlib/mireann.cpp",
+      "sha256": "15d67527d5fe3dab6dfc9d76c0cab1ed68e8d2c9f3302beefc18494f45199c69",
+      "snapshot": "files/src/gromacs/mdlib/mireann.cpp"
+    },
+    {
+      "path": "src/gromacs/mdlib/mireann.h",
+      "sha256": "a39688058b3a54eaf65ce58d49f5c91623fcbbe363451b90e302c212daf56534",
+      "snapshot": "files/src/gromacs/mdlib/mireann.h"
+    },
+    {
+      "path": "src/gromacs/mdlib/mireannoptions.cpp",
+      "sha256": "abfdfdc0f80c3dc74bd8faab940e5790f38df1eb609cd6ce730218d1939dfd1c",
+      "snapshot": "files/src/gromacs/mdlib/mireannoptions.cpp"
+    },
+    {
+      "path": "src/gromacs/mdlib/mireann_abi.h",
+      "sha256": "473be12dcd248394504f02fcb0e17a37c6ff4418929e2559ddadd55f685911dd",
+      "snapshot": "files/src/gromacs/mdlib/mireann_abi.h"
+    },
+    {
+      "path": "src/gromacs/mdlib/mirelectrostatics.cpp",
+      "sha256": "be74d8b0822964d287a52fd069455af0a60038ff60f485dbe67a6c5994df2daa",
+      "snapshot": "files/src/gromacs/mdlib/mirelectrostatics.cpp"
+    },
+    {
+      "path": "src/gromacs/mdlib/sim_util.cpp",
+      "sha256": "7b41a116d254c50771246cf7072fa311c4b67ffda4e77afb1fedcfbb94322d8f",
+      "snapshot": "files/src/gromacs/mdlib/sim_util.cpp"
+    },
+    {
+      "path": "src/gromacs/mdrun/mdmodules.cpp",
+      "sha256": "f1f661f9b316a36da3f2d54c1450f96283cfa349ce471fbb6015d20298f7519a",
+      "snapshot": "files/src/gromacs/mdrun/mdmodules.cpp"
+    },
+    {
+      "path": "src/gromacs/mdrun/rerun.cpp",
+      "sha256": "4846ebd4d4cd45e120a4dc823f8b7344237ad62929f53f9a121c1bdba968e089",
+      "snapshot": "files/src/gromacs/mdrun/rerun.cpp"
+    },
+    {
+      "path": "src/gromacs/mdtypes/forcerec.h",
+      "sha256": "d368f9c14caa73647ef9bec54f1a4b58ef374d663bbaf0ac75e9cdb0bb5fdfb1",
+      "snapshot": "files/src/gromacs/mdtypes/forcerec.h"
+    },
+    {
+      "path": "src/gromacs/mdtypes/simulation_workload.h",
+      "sha256": "5c3df57097e4801bf0d102290377cb3935d75e8bac8787d33553bcd372e6cb3e",
+      "snapshot": "files/src/gromacs/mdtypes/simulation_workload.h"
+    },
+    {
+      "path": "src/gromacs/applied_forces/nnpot/reannmodel.cpp",
+      "sha256": "a1a5b5428e66fd40c14c3b8fabb45466dad0f2f61fc1b0c8269700e8d8171e02",
+      "snapshot": "files/src/gromacs/applied_forces/nnpot/reannmodel.cpp"
+    }
+  ]
+}

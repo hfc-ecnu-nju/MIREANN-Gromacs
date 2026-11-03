@@ -1,0 +1,114 @@
+[
+  {
+    "system": "MECL",
+    "atoms": 46801,
+    "cases": [
+      {
+        "s": 0.0,
+        "U_MM_kJ_mol": -639503.7406906687,
+        "U_MLMM_kJ_mol": -3160870.098037812,
+        "U_s_kJ_mol": -639503.7406906687,
+        "dU_ds_kJ_mol": -2521366.3573471433,
+        "Q_MM_e": 0.0,
+        "Q_MLMM_e": -2.220446049250313e-16,
+        "Q2_MM_e2": 16276.943731996525,
+        "Q2_MLMM_e2": 16276.216294402746
+      },
+      {
+        "s": 0.5,
+        "U_MM_kJ_mol": -639503.7406906687,
+        "U_MLMM_kJ_mol": -3160870.098037812,
+        "U_s_kJ_mol": -1900186.9193642403,
+        "dU_ds_kJ_mol": -2521366.3573471433,
+        "Q_MM_e": 0.0,
+        "Q_MLMM_e": -2.220446049250313e-16,
+        "Q2_MM_e2": 16276.943731996525,
+        "Q2_MLMM_e2": 16276.216294402746
+      },
+      {
+        "s": 1.0,
+        "U_MM_kJ_mol": -639503.7406906687,
+        "U_MLMM_kJ_mol": -3160870.098037812,
+        "U_s_kJ_mol": -3160870.098037812,
+        "dU_ds_kJ_mol": -2521366.3573471433,
+        "Q_MM_e": 0.0,
+        "Q_MLMM_e": -2.220446049250313e-16,
+        "Q2_MM_e2": 16276.943731996525,
+        "Q2_MLMM_e2": 16276.216294402746
+      }
+    ],
+    "independent_endpoint_checks": [
+      {
+        "s": 0.0,
+        "independent_native_energy_kJ_mol": -639503.7406906687,
+        "mixed_energy_kJ_mol": -639503.7406906687,
+        "energy_abs_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0
+      },
+      {
+        "s": 1.0,
+        "independent_native_energy_kJ_mol": -3160870.098037811,
+        "mixed_energy_kJ_mol": -3160870.098037812,
+        "energy_abs_difference_kJ_mol": 9.313225746154785e-10,
+        "max_all_atom_force_difference_kJ_mol_nm": 3.1377567211166024e-11
+      }
+    ],
+    "half_force_linearity_max_kJ_mol_nm": 0.0
+  },
+  {
+    "system": "COX",
+    "atoms": 72484,
+    "cases": [
+      {
+        "s": 0.0,
+        "U_MM_kJ_mol": -868652.0281720548,
+        "U_MLMM_kJ_mol": -2951045.2836149684,
+        "U_s_kJ_mol": -868652.0281720548,
+        "dU_ds_kJ_mol": -2082393.2554429136,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.753175713607561e-13,
+        "Q2_MM_e2": 23102.098767256997,
+        "Q2_MLMM_e2": 23100.517717595918
+      },
+      {
+        "s": 0.5,
+        "U_MM_kJ_mol": -868652.0281720548,
+        "U_MLMM_kJ_mol": -2951045.2836149684,
+        "U_s_kJ_mol": -1909848.6558935116,
+        "dU_ds_kJ_mol": -2082393.2554429136,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.753175713607561e-13,
+        "Q2_MM_e2": 23102.098767256997,
+        "Q2_MLMM_e2": 23100.517717595918
+      },
+      {
+        "s": 1.0,
+        "U_MM_kJ_mol": -868652.0281720548,
+        "U_MLMM_kJ_mol": -2951045.2836149684,
+        "U_s_kJ_mol": -2951045.2836149684,
+        "dU_ds_kJ_mol": -2082393.2554429136,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.753175713607561e-13,
+        "Q2_MM_e2": 23102.098767256997,
+        "Q2_MLMM_e2": 23100.517717595918
+      }
+    ],
+    "independent_endpoint_checks": [
+      {
+        "s": 0.0,
+        "independent_native_energy_kJ_mol": -868652.0281720548,
+        "mixed_energy_kJ_mol": -868652.0281720548,
+        "energy_abs_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0
+      },
+      {
+        "s": 1.0,
+        "independent_native_energy_kJ_mol": -2951045.2836149684,
+        "mixed_energy_kJ_mol": -2951045.2836149684,
+        "energy_abs_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0
+      }
+    ],
+    "half_force_linearity_max_kJ_mol_nm": 0.0
+  }
+]

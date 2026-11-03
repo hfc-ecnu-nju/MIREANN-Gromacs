@@ -1,0 +1,27 @@
+{
+  "steep": {
+    "steps_requested": 20,
+    "frames": 22,
+    "initial_potential_kJ_mol": -2521515.798605689,
+    "last_potential_kJ_mol": -2521518.5143624144,
+    "finite_forces": true,
+    "monotonic_accepted_energy": true,
+    "convergence_required": false
+  },
+  "smooth_finite_difference": [
+    {
+      "atom_1based": 1,
+      "axis": 0,
+      "force_kJ_mol_nm": 276.3310929216692,
+      "finite_difference_kJ_mol_nm": 276.3311145827174,
+      "absolute_error_kJ_mol_nm": 2.166104820844339e-05
+    },
+    {
+      "atom_1based": 10,
+      "axis": 0,
+      "force_kJ_mol_nm": 30.203662058885243,
+      "finite_difference_kJ_mol_nm": 30.20362928509712,
+      "absolute_error_kJ_mol_nm": 3.2773788124274006e-05
+    }
+  ]
+}

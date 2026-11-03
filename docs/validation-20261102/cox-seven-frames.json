@@ -1,0 +1,233 @@
+[
+  {
+    "source_time_ps": 260,
+    "atoms": 72484,
+    "coordinate_sha256": "56e41f24c895d32ca612a296280dd165ea13f6f5694cba99bd9c0fcb2c9cceaa",
+    "endpoints": {
+      "mm": {
+        "s": 0.0,
+        "independent_energy_kJ_mol": -887482.0713912942,
+        "dual_energy_kJ_mol": -887482.0713912942,
+        "energy_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0,
+        "force_component_RMSE_kJ_mol_nm": 0.0,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.745404152435185e-13
+      },
+      "mlmm": {
+        "s": 1.0,
+        "independent_energy_kJ_mol": -2951147.919108386,
+        "dual_energy_kJ_mol": -2951147.919108386,
+        "energy_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0,
+        "force_component_RMSE_kJ_mol_nm": 0.0,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.745404152435185e-13
+      }
+    },
+    "s1_vs_archived": {
+      "archived_energy_kJ_mol": -2951147.9191085314,
+      "energy_difference_kJ_mol": 1.4528632164001465e-07,
+      "max_all_atom_force_difference_kJ_mol_nm": 1.267835614271462e-09,
+      "force_component_RMSE_kJ_mol_nm": 4.653413220398034e-11
+    }
+  },
+  {
+    "source_time_ps": 270,
+    "atoms": 72484,
+    "coordinate_sha256": "33382b6f2f6db1375f6e73766feaf59f3d86ce0eb4a4e8000515fd3fe300936a",
+    "endpoints": {
+      "mm": {
+        "s": 0.0,
+        "independent_energy_kJ_mol": -881652.4419920392,
+        "dual_energy_kJ_mol": -881652.4419920392,
+        "energy_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0,
+        "force_component_RMSE_kJ_mol_nm": 0.0,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.738742814287434e-13
+      },
+      "mlmm": {
+        "s": 1.0,
+        "independent_energy_kJ_mol": -2950590.5105100293,
+        "dual_energy_kJ_mol": -2950590.5105100293,
+        "energy_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0,
+        "force_component_RMSE_kJ_mol_nm": 0.0,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.738742814287434e-13
+      }
+    },
+    "s1_vs_archived": {
+      "archived_energy_kJ_mol": -2950590.5105101713,
+      "energy_difference_kJ_mol": 1.4202669262886047e-07,
+      "max_all_atom_force_difference_kJ_mol_nm": 1.1618794815149158e-09,
+      "force_component_RMSE_kJ_mol_nm": 4.633052474353659e-11
+    }
+  },
+  {
+    "source_time_ps": 280,
+    "atoms": 72484,
+    "coordinate_sha256": "0fa8e290edc7deadf4ff0b45a994229cc94155cf6e627d29957c4d97002599e8",
+    "endpoints": {
+      "mm": {
+        "s": 0.0,
+        "independent_energy_kJ_mol": -886471.0204966685,
+        "dual_energy_kJ_mol": -886471.0204966685,
+        "energy_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0,
+        "force_component_RMSE_kJ_mol_nm": 0.0,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.735412145213559e-13
+      },
+      "mlmm": {
+        "s": 1.0,
+        "independent_energy_kJ_mol": -2951686.0098882476,
+        "dual_energy_kJ_mol": -2951686.0098882476,
+        "energy_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0,
+        "force_component_RMSE_kJ_mol_nm": 0.0,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.735412145213559e-13
+      }
+    },
+    "s1_vs_archived": {
+      "archived_energy_kJ_mol": -2951686.0098883975,
+      "energy_difference_kJ_mol": 1.4994293451309204e-07,
+      "max_all_atom_force_difference_kJ_mol_nm": 1.2061036613886245e-09,
+      "force_component_RMSE_kJ_mol_nm": 4.821085458346925e-11
+    }
+  },
+  {
+    "source_time_ps": 290,
+    "atoms": 72484,
+    "coordinate_sha256": "77336d8139999cf5b8e7e160116ccab819356999d4c93b31b855217a42b0a66d",
+    "endpoints": {
+      "mm": {
+        "s": 0.0,
+        "independent_energy_kJ_mol": -726772.5751330667,
+        "dual_energy_kJ_mol": -726772.5751330667,
+        "energy_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0,
+        "force_component_RMSE_kJ_mol_nm": 0.0,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.765388166878438e-13
+      },
+      "mlmm": {
+        "s": 1.0,
+        "independent_energy_kJ_mol": -2951616.8332144516,
+        "dual_energy_kJ_mol": -2951616.8332144516,
+        "energy_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0,
+        "force_component_RMSE_kJ_mol_nm": 0.0,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.765388166878438e-13
+      }
+    },
+    "s1_vs_archived": {
+      "archived_energy_kJ_mol": -2951616.8332145987,
+      "energy_difference_kJ_mol": 1.471489667892456e-07,
+      "max_all_atom_force_difference_kJ_mol_nm": 1.3328644854482263e-09,
+      "force_component_RMSE_kJ_mol_nm": 4.7718270653874656e-11
+    }
+  },
+  {
+    "source_time_ps": 300,
+    "atoms": 72484,
+    "coordinate_sha256": "f441ffe4c23e017f790ce01710bd0d27e46eb4a3eaa3f4adbb58f9653ed46b79",
+    "endpoints": {
+      "mm": {
+        "s": 0.0,
+        "independent_energy_kJ_mol": -871624.5385044717,
+        "dual_energy_kJ_mol": -871624.5385044717,
+        "energy_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0,
+        "force_component_RMSE_kJ_mol_nm": 0.0,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.749845044533686e-13
+      },
+      "mlmm": {
+        "s": 1.0,
+        "independent_energy_kJ_mol": -2950508.7731499956,
+        "dual_energy_kJ_mol": -2950508.7731499956,
+        "energy_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0,
+        "force_component_RMSE_kJ_mol_nm": 0.0,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.749845044533686e-13
+      }
+    },
+    "s1_vs_archived": {
+      "archived_energy_kJ_mol": -2950508.7731501297,
+      "energy_difference_kJ_mol": 1.341104507446289e-07,
+      "max_all_atom_force_difference_kJ_mol_nm": 1.0110170478583314e-09,
+      "force_component_RMSE_kJ_mol_nm": 4.7818147510702343e-11
+    }
+  },
+  {
+    "source_time_ps": 310,
+    "atoms": 72484,
+    "coordinate_sha256": "5c81613a56ae55a2072ad704b4c1285d3e504552c7d08bbfaf6ff3e56a7133fe",
+    "endpoints": {
+      "mm": {
+        "s": 0.0,
+        "independent_energy_kJ_mol": -763480.3258364232,
+        "dual_energy_kJ_mol": -763480.3258364232,
+        "energy_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0,
+        "force_component_RMSE_kJ_mol_nm": 0.0,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.754285936632186e-13
+      },
+      "mlmm": {
+        "s": 1.0,
+        "independent_energy_kJ_mol": -2951017.970168779,
+        "dual_energy_kJ_mol": -2951017.970168779,
+        "energy_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0,
+        "force_component_RMSE_kJ_mol_nm": 0.0,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.754285936632186e-13
+      }
+    },
+    "s1_vs_archived": {
+      "archived_energy_kJ_mol": -2951017.970168913,
+      "energy_difference_kJ_mol": 1.3364478945732117e-07,
+      "max_all_atom_force_difference_kJ_mol_nm": 2.175056579289958e-09,
+      "force_component_RMSE_kJ_mol_nm": 4.7977600974816793e-11
+    }
+  },
+  {
+    "source_time_ps": 320,
+    "atoms": 72484,
+    "coordinate_sha256": "393ec57e92f2835ce8d2bcd6314c6b80fa38dc422c5b31e6616d18ceb1612e05",
+    "endpoints": {
+      "mm": {
+        "s": 0.0,
+        "independent_energy_kJ_mol": -882222.0653153147,
+        "dual_energy_kJ_mol": -882222.0653153147,
+        "energy_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0,
+        "force_component_RMSE_kJ_mol_nm": 0.0,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.752065490582936e-13
+      },
+      "mlmm": {
+        "s": 1.0,
+        "independent_energy_kJ_mol": -2951111.4504827326,
+        "dual_energy_kJ_mol": -2951111.4504827326,
+        "energy_difference_kJ_mol": 0.0,
+        "max_all_atom_force_difference_kJ_mol_nm": 0.0,
+        "force_component_RMSE_kJ_mol_nm": 0.0,
+        "Q_MM_e": 8.870681966755001e-14,
+        "Q_MLMM_e": -5.752065490582936e-13
+      }
+    },
+    "s1_vs_archived": {
+      "archived_energy_kJ_mol": -2951111.4504828863,
+      "energy_difference_kJ_mol": 1.5366822481155396e-07,
+      "max_all_atom_force_difference_kJ_mol_nm": 1.1493455076561077e-09,
+      "force_component_RMSE_kJ_mol_nm": 4.7825946623014715e-11
+    }
+  }
+]

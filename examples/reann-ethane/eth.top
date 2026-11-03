@@ -1,0 +1,98 @@
+;
+;   File /mnt/c/Users/dg202/Documents/ChatGPT/gromace-ML-MM/tests/qeq-eth/eth.top  was generated
+;   By user: hfc (1002)
+;   On host:DESKTOP-S3NTCLM 
+;   At date:Wed. October  3 20:25:34 2026 
+;
+;   This is a standalone topology file
+;
+;   Created by:
+;   ParmEd:       qeq_eth_test.py, VERSION4.3.1 
+;   Executable:   qeq_eth_test.py
+;   Library dir:  /usr/local/gromacs/share/gromacs/top
+;   Command line:
+;     tests/qeq_eth_test.py prepare
+;
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5          0.83333333  
+
+[ atomtypes ]
+; name    at.num    mass    charge ptype  sigma      epsilon
+c3             6  12.010000  0.00000000  A     0.33977095      0.4510352
+hc             1   1.008000  0.00000000  A      0.2600177      0.0870272
+
+
+[ moleculetype ]
+; Name            nrexcl
+eth          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+; residue    1 eth rtp eth q -0.0
+    1         c3      1    eth     C1      1 -0.42878755  12.010000   ; qtot -0.428788
+    2         hc      1    eth     H2      2 0.14324464   1.008000   ; qtot -0.285543
+    3         hc      1    eth     H3      3 0.14789849   1.008000   ; qtot -0.137644
+    4         hc      1    eth     H4      4 0.14033720   1.008000   ; qtot 0.002693
+    5         c3      1    eth     C5      5 -0.43379559  12.010000   ; qtot -0.431103
+    6         hc      1    eth     H6      6 0.14250323   1.008000   ; qtot -0.288600
+    7         hc      1    eth     H7      7 0.15044153   1.008000   ; qtot -0.138158
+    8         hc      1    eth     H8      8 0.13815804   1.008000   ; qtot -0.000000
+
+[ bonds ]
+;    ai     aj funct         c0         c1         c2         c3
+      1      5     1   0.15354 191535.152000
+      1      2     1   0.10962 288905.200000
+      1      3     1   0.10962 288905.200000
+      1      4     1   0.10962 288905.200000
+      5      6     1   0.10962 288905.200000
+      5      7     1   0.10962 288905.200000
+      5      8     1   0.10962 288905.200000
+
+[ pairs ]
+;    ai     aj funct         c0         c1         c2         c3
+      2      6     1
+      2      7     1
+      2      8     1
+      3      6     1
+      3      7     1
+      3      8     1
+      4      6     1
+      4      7     1
+      4      8     1
+
+[ angles ]
+;    ai     aj     ak funct         c0         c1         c2         c3
+      1      5      6     1   109.6800468 362.083360
+      1      5      7     1   109.6800468 362.083360
+      1      5      8     1   109.6800468 362.083360
+      2      1      3     1   107.7300462 299.574400
+      2      1      4     1   107.7300462 299.574400
+      2      1      5     1   109.6800468 362.083360
+      3      1      4     1   107.7300462 299.574400
+      3      1      5     1   109.6800468 362.083360
+      4      1      5     1   109.6800468 362.083360
+      6      5      7     1   107.7300462 299.574400
+      6      5      8     1   107.7300462 299.574400
+      7      5      8     1   107.7300462 299.574400
+
+[ dihedrals ]
+;    ai     aj     ak     al funct         c0         c1         c2         c3         c4         c5
+      2      1      5      6     1  0.0000000  0.5020800  3
+      2      1      5      7     1  0.0000000  0.5020800  3
+      2      1      5      8     1  0.0000000  0.5020800  3
+      3      1      5      6     1  0.0000000  0.5020800  3
+      3      1      5      7     1  0.0000000  0.5020800  3
+      3      1      5      8     1  0.0000000  0.5020800  3
+      4      1      5      6     1  0.0000000  0.5020800  3
+      4      1      5      7     1  0.0000000  0.5020800  3
+      4      1      5      8     1  0.0000000  0.5020800  3
+
+[ system ]
+; Name
+Generic title
+
+[ molecules ]
+; Compound       #mols
+eth                  1

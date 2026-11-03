@@ -1,0 +1,98 @@
+{
+  "fixture_atoms": 10,
+  "dt_ps": 0.001,
+  "description": "Synthetic nonphysical system with real trained models; original MM bonds/angle/dihedral/pairs plus PME, dispersion and common pull bias.",
+  "cases": [
+    {
+      "s": 0.0,
+      "U_MM_kJ_mol": -39.98603037188941,
+      "U_MLMM_kJ_mol": -2521515.798605689,
+      "U_s_kJ_mol": -39.98603037188941,
+      "Q_MM_e": -1.1102230246251565e-16,
+      "Q_MLMM_e": 0.0,
+      "force_linearity_max_kJ_mol_nm": 0.0
+    },
+    {
+      "s": 0.25,
+      "U_MM_kJ_mol": -39.98603037188941,
+      "U_MLMM_kJ_mol": -2521515.798605689,
+      "U_s_kJ_mol": -630408.9391742011,
+      "Q_MM_e": -1.1102230246251565e-16,
+      "Q_MLMM_e": 0.0,
+      "force_linearity_max_kJ_mol_nm": 2.842170943040401e-14
+    },
+    {
+      "s": 0.5,
+      "U_MM_kJ_mol": -39.98603037188941,
+      "U_MLMM_kJ_mol": -2521515.798605689,
+      "U_s_kJ_mol": -1260777.8923180304,
+      "Q_MM_e": -1.1102230246251565e-16,
+      "Q_MLMM_e": 0.0,
+      "force_linearity_max_kJ_mol_nm": 0.0
+    },
+    {
+      "s": 0.75,
+      "U_MM_kJ_mol": -39.98603037188941,
+      "U_MLMM_kJ_mol": -2521515.798605689,
+      "U_s_kJ_mol": -1891146.8454618596,
+      "Q_MM_e": -1.1102230246251565e-16,
+      "Q_MLMM_e": 0.0,
+      "force_linearity_max_kJ_mol_nm": 0.0
+    },
+    {
+      "s": 1.0,
+      "U_MM_kJ_mol": -39.98603037188941,
+      "U_MLMM_kJ_mol": -2521515.798605689,
+      "U_s_kJ_mol": -2521515.798605689,
+      "Q_MM_e": -1.1102230246251565e-16,
+      "Q_MLMM_e": 0.0,
+      "force_linearity_max_kJ_mol_nm": 0.0
+    }
+  ],
+  "endpoint_energy_invariance_kJ_mol": {
+    "MM": 0.0,
+    "MLMM": 0.0
+  },
+  "trajectory_checks": [
+    {
+      "s": 0.0,
+      "steps": 10,
+      "independent_native_initial_energy_kJ_mol": -39.986030371889,
+      "independent_native_energy_max_difference_kJ_mol": 0.0,
+      "x": 0.0,
+      "v": 0.0,
+      "f": 0.0,
+      "max_total_MLMM_charge_change_e": 4.440892098500626e-16,
+      "max_selected_MM_charge_error_e": 5.551115123125783e-17,
+      "max_individual_QM_charge_change_e": 0.0019092120827614023
+    },
+    {
+      "s": 1.0,
+      "steps": 10,
+      "independent_native_initial_energy_kJ_mol": -2521515.798605689,
+      "independent_native_energy_max_difference_kJ_mol": 0.0,
+      "x": 0.0,
+      "v": 0.0,
+      "f": 0.0,
+      "max_total_MLMM_charge_change_e": 4.440892098500626e-16,
+      "max_selected_MM_charge_error_e": 5.551115123125783e-17,
+      "max_individual_QM_charge_change_e": 0.007240717966598642
+    }
+  ],
+  "finite_differences": [
+    {
+      "atom_1based": 3,
+      "axis": 0,
+      "FD_kJ_mol_nm": 192.61841662228105,
+      "force_kJ_mol_nm": 192.61856308297465,
+      "error_kJ_mol_nm": 0.0001464606935996926
+    },
+    {
+      "atom_1based": 7,
+      "axis": 1,
+      "FD_kJ_mol_nm": -23.560342378914353,
+      "force_kJ_mol_nm": -23.560345780260462,
+      "error_kJ_mol_nm": 3.4013461096549236e-06
+    }
+  ]
+}
